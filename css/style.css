@@ -25,7 +25,7 @@ header {
 }
 header ul {
   float: right;
-  margin-left: 700px;
+  margin-left: 870px;
   margin-top: 15px;
 }
 
@@ -39,7 +39,7 @@ header ul li:nth-child(7) {
 .hr {
   width: 100%;
   clear: both;
-  background: url('/img/hr-img.png');
+  background: url('../img/hr-img.png');
   background-repeat: repeat;
   height: 20px;
   display: block;
@@ -82,4 +82,88 @@ main p {
   font-size: 18px;
   margin: 20px 0px;
   text-indent: 30px;
+}
+
+#note{
+  background-image: url('../img/list-bg.png');
+ position: relative;
+  height: 350px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 350px;
+  padding: 40px 60px 40px 40px;
+  font-size: 20px;
+  color: #a9a9a9;
+  font-family: 'Patrick Hand', cursive;;
+margin-bottom: 20px;
+  
+}
+
+#right{
+  display: inline-block ;
+ position: absolute;
+ right: 200px;
+ 
+
+}
+#left{
+  display: inline-block ;
+  position: absolute;
+  left: 100px;
+
+
+}
+label, input{
+margin-bottom: 20px;
+}
+label span{
+  margin-left: 25px;
+}
+main .hr{
+margin-top: 35px;
+}
+
+.profile, .name{
+  display: inline-block;
+  margin-top: 20px;
+}
+
+button{
+  float: right;
+  margin-top: 50px;
+  padding: 10px 30px 10px 30px;
+  background-color: #bc7058;
+  color: white;
+  font-size: 30px;
+  border: none;
+  font-weight:normal;
+}
+.name h4{
+font-size: 30px;
+font-weight: bold;
+line-height: 2.5;
+}
+
+.name p{
+  font-size: 18px;
+  color: #333;
+}
+
+footer{
+  margin-top: 100px;
+  position: relative;
+}
+footer img{
+  
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -18px;
+}
+footer p{
+  padding-top: 35px;
+  padding-bottom: 50px;
+  font-size: 14px;
+  color: #a9a9a9;
+  text-align: center;
 }
