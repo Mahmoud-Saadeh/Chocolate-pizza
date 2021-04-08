@@ -85,9 +85,9 @@ main p {
   text-indent: 30px;
 }
 
-#note{
+#note {
   background-image: url('../img/list-bg.png');
- position: relative;
+  position: relative;
   height: 350px;
   width: 100%;
   background-repeat: no-repeat;
@@ -95,41 +95,38 @@ main p {
   padding: 40px 60px 40px 40px;
   font-size: 20px;
   color: #a9a9a9;
-  font-family: 'Patrick Hand', cursive;;
-margin-bottom: 20px;
-  
+  font-family: 'Patrick Hand', cursive;
+  margin-bottom: 20px;
 }
 
-#right{
-  display: inline-block ;
- position: absolute;
- right: 200px;
- 
-
+#right {
+  display: inline-block;
+  position: absolute;
+  right: 200px;
 }
-#left{
-  display: inline-block ;
+#left {
+  display: inline-block;
   position: absolute;
   left: 100px;
-
-
 }
-label, input{
-margin-bottom: 20px;
+label,
+input {
+  margin-bottom: 20px;
 }
-label span{
+label span {
   margin-left: 25px;
 }
-main .hr{
-margin-top: 35px;
+main .hr {
+  margin-top: 35px;
 }
 
-.profile, .name{
+.profile,
+.name {
   display: inline-block;
   margin-top: 20px;
 }
 
-button{
+button {
   float: right;
   margin-top: 50px;
   padding: 10px 30px 10px 30px;
@@ -137,31 +134,30 @@ button{
   color: white;
   font-size: 30px;
   border: none;
-  font-weight:normal;
+  font-weight: normal;
 }
-.name h4{
-font-size: 30px;
-font-weight: bold;
-line-height: 2.5;
+.name h4 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 2.5;
 }
 
-.name p{
+.name p {
   font-size: 18px;
   color: #333;
 }
 
-footer{
+footer {
   margin-top: 100px;
   position: relative;
 }
-footer img{
-  
+footer img {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   top: -18px;
 }
-footer p{
+footer p {
   padding-top: 35px;
   padding-bottom: 50px;
   font-size: 14px;
